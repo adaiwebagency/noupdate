@@ -5,8 +5,6 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Services from './pages/Services';
 import OurWork from './pages/OurWork';
-import Contract from './pages/Contract';
-import Blog from './pages/Blog';
 import Contact from './pages/Contact';
 
 type Page = 'Home' | 'About' | 'Services' | 'Our Work' | 'Templates' | 'Blog' | 'Contact' | 'Contract';
