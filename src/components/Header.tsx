@@ -10,7 +10,7 @@ export default function Header({ currentPage, onNavigate }: HeaderProps) {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
 
-  const navItems = ['Home', 'About', 'Services', 'Our Work', 'Templates', 'Blog', 'Contact'];
+  const navItems = ['Home', 'About', 'Services', 'Our Work', 'Contact'];
 
   useEffect(() => {
     const handleScroll = () => {
