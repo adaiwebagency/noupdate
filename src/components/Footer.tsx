@@ -5,7 +5,7 @@ interface FooterProps {
 }
 
 export default function Footer({ onNavigate }: FooterProps) {
-  const navItems = ['Home', 'About', 'Services', 'Our Work', 'Templates', 'Blog', 'Contact'];
+  const navItems = ['Home', 'About', 'Services', 'Our Work', 'Contact'];
 
   return (
     <footer className="bg-black border-t border-cyan-500/20">
